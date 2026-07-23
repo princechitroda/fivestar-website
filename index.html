@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premium Dehydrated Onion & Garlic Manufacturer & Exporter | Five Star Food Export Industries</title>
+<meta name="description" content="Five Star Food Export Industries — premium dehydrated white, red & pink onion and garlic products from Gujarat, India. Flakes, powder, granules, chopped & minced for global food industries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --roast:#190E05;
+  --husk:#241507;
+  --husk2:#2F1C0A;
+  --flake:#E8A63B;
+  --flake-soft:#F2C879;
+  --ember:#C7501F;
+  --flesh:#F5EBDA;
+  --flesh-dim:#CDB897;
+  --field:#97A35D;
+  --line:rgba(232,166,59,.18);
+  --disp:'Bricolage Grotesque',sans-serif;
+  --body:'Instrument Sans',sans-serif;
+  --mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--roast);color:var(--flesh);font-family:var(--body);font-size:16px;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--flake);color:var(--roast)}
+
+/* ---------- utilities ---------- */
+.wrap{max-width:1240px;margin:0 auto;padding:0 6vw}
+.sec{padding:110px 0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--flake);display:flex;align-items:center;gap:12px;margin-bottom:22px}
+.eyebrow::before{content:"";width:34px;height:1px;background:var(--flake)}
+.h2{font-family:var(--disp);font-weight:700;font-size:clamp(30px,4.6vw,54px);line-height:1.06;letter-spacing:-.01em;margin-bottom:18px}
+.lead{color:var(--flesh-dim);max-width:640px;font-size:17px}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .9s cubic-bezier(.19,1,.22,1),transform .9s cubic-bezier(.19,1,.22,1)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}.d5{transition-delay:.4s}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:60;display:flex;align-items:center;justify-content:space-between;padding:18px 5vw;transition:background .4s,box-shadow .4s,padding .4s}
+.nav.scrolled{background:rgba(25,14,5,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line);padding:12px 5vw}
+.logo{display:flex;align-items:baseline;gap:9px;font-family:var(--disp)}
+.logo b{font-weight:800;font-size:19px;letter-spacing:.02em}
+.logo .star{color:var(--flake);font-size:20px}
+.logo span{font-family:var(--mono);font-size:10px;letter-spacing:.28em;color:var(--flesh-dim)}
+.nav-links{display:flex;gap:34px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.nav-links a{position:relative;padding:6px 0;color:var(--flesh-dim);transition:color .3s}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--flake);transition:width .35s}
+.nav-links a:hover{color:var(--flesh)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--roast);background:var(--flake);padding:11px 20px;border-radius:100px;transition:background .3s,transform .3s}
+.nav-cta:hover{background:var(--flake-soft);transform:translateY(-1px)}
+.burger{display:none;background:none;border:1px solid var(--line);border-radius:10px;width:44px;height:40px;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.burger i{display:block;width:18px;height:2px;background:var(--flesh);transition:transform .3s,opacity .3s}
+.mobile-menu{position:fixed;inset:0;background:rgba(25,14,5,.97);backdrop-filter:blur(10px);z-index:55;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;font-family:var(--disp);font-size:30px;font-weight:600;opacity:0;pointer-events:none;transition:opacity .4s}
+.mobile-menu.open{opacity:1;pointer-events:auto}
+.mobile-menu a{color:var(--flesh-dim)}
+.mobile-menu a:hover{color:var(--flake)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/2LqxVklZd4iJcDmR/whatsapp-image-2025-11-28-at-12.08.54-pm-1-hicKyAVBJgvrw4RV.jpeg') center/cover no-repeat;transform:scale(1.08);animation:heroDrift 22s ease-in-out infinite alternate}
+@keyframes heroDrift{from{transform:scale(1.08) translateY(0)}to{transform:scale(1.14) translateY(-18px)}}
+.hero-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(25,14,5,.62) 0%,rgba(25,14,5,.28) 42%,rgba(25,14,5,.9) 86%,var(--roast) 100%)}
+.hero-shade::after{content:"";position:absolute;inset:0;background:radial-gradient(90% 65% at 22% 78%,rgba(232,166,59,.18),transparent 60%)}
+#flakes{position:absolute;inset:0;width:100%;height:100%}
+.hero-inner{position:relative;z-index:3;width:100%;padding:0 6vw 130px}
+.hero-eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.26em;color:var(--flake);text-transform:uppercase;margin-bottom:26px;display:flex;align-items:center;gap:14px}
+.hero-eyebrow::before{content:"";width:46px;height:1px;background:var(--flake)}
+.hero h1{font-family:var(--disp);font-weight:800;font-size:clamp(44px,7.6vw,104px);line-height:.98;letter-spacing:-.02em;max-width:14ch}
+.hero h1 em{font-style:normal;color:var(--flake)}
+.hero-sub{margin-top:26px;max-width:560px;color:var(--flesh-dim);font-size:17px}
+.hero-actions{display:flex;gap:16px;margin-top:38px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:16px 28px;border-radius:100px;transition:transform .3s,background .3s,border-color .3s;cursor:pointer;border:1px solid transparent}
+.btn-solid{background:var(--flake);color:var(--roast)}
+.btn-solid:hover{background:var(--flake-soft);transform:translateY(-2px)}
+.btn-ghost{border-color:rgba(245,235,218,.32);color:var(--flesh)}
+.btn-ghost:hover{border-color:var(--flake);color:var(--flake);transform:translateY(-2px)}
+.hero-stats{z-index:3;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin:0 6vw;position:absolute;left:0;right:0;bottom:0;background:linear-gradient(180deg,transparent,rgba(25,14,5,.4))}
+.hstat{padding:22px 10px 26px;text-align:center;border-right:1px solid var(--line)}
+.hstat:last-child{border-right:0}
+.hstat b{display:block;font-family:var(--disp);font-weight:700;font-size:clamp(22px,3vw,34px);color:var(--flake)}
+.hstat span{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--flesh-dim)}
+
+/* ---------- marquee ---------- */
+.marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden;padding:20px 0;background:var(--husk)}
+.marquee-track{display:flex;gap:56px;width:max-content;animation:mq 26s linear infinite;font-family:var(--mono);font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--flesh-dim);white-space:nowrap}
+.marquee-track b{color:var(--flake);font-weight:500}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- products ---------- */
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin-top:56px}
+.pcard{background:var(--husk);border:1px solid rgba(232,166,59,.12);border-radius:20px;overflow:hidden;transition:transform .45s cubic-bezier(.19,1,.22,1),border-color .45s,box-shadow .45s;will-change:transform;position:relative}
+.pcard:hover{border-color:rgba(232,166,59,.45);box-shadow:0 24px 60px -20px rgba(232,166,59,.22)}
+.pimg{aspect-ratio:1/.92;background:#F1E7D4;overflow:hidden;position:relative}
+.pimg img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.19,1,.22,1)}
+.pcard:hover .pimg img{transform:scale(1.06)}
+.ptag{position:absolute;top:14px;left:14px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;background:rgba(25,14,5,.78);color:var(--flake);padding:6px 12px;border-radius:100px;backdrop-filter:blur(6px)}
+.pbody{padding:22px 22px 26px}
+.pbody h3{font-family:var(--disp);font-weight:600;font-size:19px;line-height:1.25;margin-bottom:8px}
+.pbody p{font-size:14px;color:var(--flesh-dim);line-height:1.55}
+.pforms{margin-top:14px;display:flex;flex-wrap:wrap;gap:7px}
+.pforms i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line);border-radius:100px;padding:4px 10px;color:var(--flesh-dim)}
+
+/* ---------- process (desktop scrub) ---------- */
+.proc{background:var(--husk);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.proc-head{padding:110px 0 40px}
+.proc-scrub{position:relative;height:calc(8*88vh)}
+.proc-sticky{position:sticky;top:0;height:100svh;display:grid;grid-template-columns:1.05fr .95fr;gap:0;overflow:hidden}
+.stage{position:relative;overflow:hidden}
+.stage-imgs{position:absolute;inset:0}
+.stage-imgs img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .7s ease}
+.stage-imgs img.on{opacity:1}
+.stage::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 55%,var(--husk) 100%),linear-gradient(0deg,rgba(25,14,5,.55),transparent 45%)}
+.stage-num{position:absolute;left:5vw;bottom:6vh;z-index:2;font-family:var(--disp);font-weight:800;font-size:clamp(90px,11vw,170px);line-height:1;color:transparent;-webkit-text-stroke:1.5px rgba(232,166,59,.55)}
+.panel{display:flex;flex-direction:column;justify-content:center;padding:0 6vw 0 5vw;position:relative}
+.panel .eyebrow{margin-bottom:30px}
+.step-title{font-family:var(--disp);font-weight:700;font-size:clamp(28px,3.4vw,44px);line-height:1.08;min-height:2.3em;transition:opacity .35s}
+.step-desc{color:var(--flesh-dim);margin-top:16px;max-width:44ch;min-height:5.2em;transition:opacity .35s}
+.fadeout{opacity:0}
+.readout{margin-top:34px;font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;color:var(--flake);display:grid;gap:9px}
+.readout div{display:flex;justify-content:space-between;border-bottom:1px dashed rgba(232,166,59,.25);padding-bottom:8px;max-width:360px}
+.readout span{color:var(--flesh-dim)}
+.rail{position:absolute;right:6vw;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:14px}
+.rail i{width:7px;height:7px;border-radius:50%;background:rgba(245,235,218,.22);transition:background .3s,transform .3s}
+.rail i.on{background:var(--flake);transform:scale(1.45)}
+.proc-bar{position:absolute;left:0;top:0;height:3px;background:var(--flake);width:0;z-index:5}
+
+/* ---------- process (mobile timeline) ---------- */
+.proc-mobile{display:none;padding:20px 0 90px}
+.tl{position:relative;margin-top:30px;padding-left:34px}
+.tl::before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--flake),rgba(232,166,59,.1))}
+.tl-step{position:relative;margin-bottom:34px}
+.tl-step::before{content:"";position:absolute;left:-30px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--roast);border:2.5px solid var(--flake)}
+.tl-step img{border-radius:14px;margin-bottom:12px;aspect-ratio:16/10;object-fit:cover;width:100%}
+.tl-step h4{font-family:var(--disp);font-size:19px;font-weight:600;margin-bottom:6px}
+.tl-step h4 b{color:var(--flake);font-family:var(--mono);font-weight:500;font-size:12px;margin-right:8px;letter-spacing:.1em}
+.tl-step p{font-size:14px;color:var(--flesh-dim)}
+
+/* ---------- quality (light) ---------- */
+.quality{background:var(--flesh);color:#2A1A0B}
+.quality .eyebrow{color:var(--ember)}
+.quality .eyebrow::before{background:var(--ember)}
+.quality .lead{color:#6E5A42}
+.q-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:center;margin-top:20px}
+.q-img{border-radius:24px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(42,26,11,.45)}
+.q-img img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3.4}
+.q-list{display:grid;gap:8px}
+.q-item{display:flex;gap:18px;padding:20px 18px;border-radius:16px;transition:background .3s}
+.q-item:hover{background:rgba(199,80,31,.07)}
+.q-ic{flex:0 0 46px;height:46px;border-radius:13px;background:#2A1A0B;color:var(--flake);display:flex;align-items:center;justify-content:center}
+.q-ic svg{width:22px;height:22px}
+.q-item h4{font-family:var(--disp);font-weight:600;font-size:18px;margin-bottom:4px}
+.q-item p{font-size:14px;color:#6E5A42;line-height:1.5}
+
+/* ---------- industries ---------- */
+.ind-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:18px;margin-top:54px}
+.icard{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:3/3.7;border:1px solid rgba(232,166,59,.12)}
+.icard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.19,1,.22,1)}
+.icard:hover img{transform:scale(1.07)}
+.icard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(25,14,5,.05) 30%,rgba(25,14,5,.92) 100%)}
+.icard-txt{position:absolute;left:0;right:0;bottom:0;padding:20px;z-index:2}
+.icard-txt h4{font-family:var(--disp);font-weight:600;font-size:18px;line-height:1.2;margin-bottom:5px}
+.icard-txt p{font-size:12.5px;color:var(--flesh-dim);line-height:1.45}
+
+/* ---------- routes ---------- */
+.routes{background:var(--husk);border-top:1px solid var(--line)}
+.routes-board{margin-top:50px;border:1px solid var(--line);border-radius:26px;background:
+ radial-gradient(rgba(232,166,59,.12) 1px,transparent 1.4px) 0 0/26px 26px,
+ linear-gradient(180deg,rgba(25,14,5,.4),rgba(25,14,5,.85));padding:30px 10px;overflow:hidden}
+.routes-board svg{width:100%;height:auto;display:block}
+.route-path{fill:none;stroke:var(--flake);stroke-width:1.6;stroke-dasharray:6 7;opacity:.7;animation:dash 2.6s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-52}}
+.hub{fill:var(--ember)}
+.hub-ring{fill:none;stroke:var(--ember);opacity:.6;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{r:8;opacity:.7}100%{r:26;opacity:0}}
+.dest{fill:var(--flake)}
+.map-label{font-family:var(--mono);font-size:12px;letter-spacing:.1em;fill:var(--flesh-dim);text-transform:uppercase}
+.map-label.big{fill:var(--flake);font-size:13px}
+.counters{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:44px}
+.counter{border:1px solid var(--line);border-radius:18px;padding:26px 18px;text-align:center;background:rgba(25,14,5,.5)}
+.counter b{display:block;font-family:var(--disp);font-weight:800;font-size:clamp(30px,3.6vw,46px);color:var(--flake)}
+.counter span{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--flesh-dim)}
+
+/* ---------- contact ---------- */
+.contact{position:relative;overflow:hidden}
+.contact::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 80% 20%,rgba(232,166,59,.13),transparent 60%)}
+.c-grid{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:center}
+.contact h2{font-family:var(--disp);font-weight:800;font-size:clamp(38px,5.6vw,72px);line-height:1.02;letter-spacing:-.015em}
+.contact h2 em{font-style:normal;color:var(--flake)}
+.c-actions{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
+.c-card{border:1px solid var(--line);border-radius:22px;padding:34px;background:rgba(36,21,7,.72);backdrop-filter:blur(8px);font-family:var(--mono);font-size:13.5px;line-height:2.1;color:var(--flesh-dim)}
+.c-card b{color:var(--flesh);font-weight:500}
+.c-card .k{color:var(--flake);letter-spacing:.14em;font-size:11px;text-transform:uppercase;display:block;margin-top:16px}
+.c-card .k:first-child{margin-top:0}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);background:#140B03;padding:70px 0 34px}
+.f-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:44px}
+.f-brand p{color:var(--flesh-dim);font-size:14px;margin-top:14px;max-width:32ch}
+.f-col h5{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--flake);margin-bottom:18px}
+.f-col a{display:block;color:var(--flesh-dim);font-size:14px;padding:5px 0;transition:color .3s,transform .3s}
+.f-col a:hover{color:var(--flake);transform:translateX(4px)}
+.f-bottom{margin-top:56px;padding-top:24px;border-top:1px solid rgba(232,166,59,.1);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:rgba(205,184,151,.55)}
+
+/* ---------- responsive ---------- */
+@media(max-width:1024px){
+  .q-grid{grid-template-columns:1fr;gap:34px}
+  .c-grid{grid-template-columns:1fr;gap:40px}
+  .f-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:900px){
+  .nav-links,.nav-cta{display:none}
+  .burger{display:flex}
+  .proc-scrub{display:none}
+  .proc-mobile{display:block}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hstat:nth-child(2){border-right:0}
+  .hstat{padding:16px 8px}
+  .counters{grid-template-columns:repeat(2,1fr)}
+  .sec{padding:80px 0}
+  .hero-inner{padding-bottom:190px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+  .proc-scrub{display:none}
+  .proc-mobile{display:block}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="logo" href="#top">
+    <span class="star">✶</span><b>FIVE STAR</b><span>FOOD EXPORT IND.</span>
+  </a>
+  <div class="nav-links">
+    <a href="#products">Products</a>
+    <a href="#process">Process</a>
+    <a href="#quality">Quality</a>
+    <a href="#industries">Industries</a>
+    <a href="#routes">Exports</a>
+  </div>
+  <a class="nav-cta" href="#contact">Get a Quote</a>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+</nav>
+<div class="mobile-menu" id="mmenu">
+  <a href="#products">Products</a>
+  <a href="#process">Process</a>
+  <a href="#quality">Quality</a>
+  <a href="#industries">Industries</a>
+  <a href="#routes">Exports</a>
+  <a href="#contact" style="color:var(--flake)">Get a Quote</a>
+</div>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-shade"></div>
+  <canvas id="flakes"></canvas>
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Morangi · Rajula · Gujarat, India</div>
+    <h1>Gujarat's harvest, <em>dried</em> for the world.</h1>
+    <p class="hero-sub">Premium dehydrated white, red &amp; pink onion and garlic — flakes, powder and granules — manufactured under export-grade hygiene and shipped to food industries worldwide.</p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="#contact">Request Specification</a>
+      <a class="btn btn-ghost" href="#process">See the Process ↓</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="hstat"><b data-count="5">0</b><span>Product Lines</span></div>
+    <div class="hstat"><b data-count="7">0</b><span>Process Stages</span></div>
+    <div class="hstat"><b data-count="6" data-suffix="%">0</b><span>Max Moisture</span></div>
+    <div class="hstat"><b data-count="24" data-suffix="h">0</b><span>Quote Response</span></div>
+  </div>
+</header>
+
+<!-- ================= MARQUEE ================= -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span><b>Flakes</b> · Kibbled</span><span><b>Powder</b> · Fine Mesh</span><span><b>Granules</b></span><span><b>Chopped</b></span><span><b>Minced</b></span><span><b>Custom</b> · Cuts &amp; Mesh Sizes</span><span><b>Bulk</b> · Export Packaging</span>
+    <span><b>Flakes</b> · Kibbled</span><span><b>Powder</b> · Fine Mesh</span><span><b>Granules</b></span><span><b>Chopped</b></span><span><b>Minced</b></span><span><b>Custom</b> · Cuts &amp; Mesh Sizes</span><span><b>Bulk</b> · Export Packaging</span>
+  </div>
+</div>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="sec" id="products">
+  <div class="wrap">
+    <div class="eyebrow reveal">Product Range</div>
+    <h2 class="h2 reveal d1">Five lines. One standard:<br>export grade.</h2>
+    <p class="lead reveal d2">Processed under hygienic conditions for natural flavor, long shelf life and consistent quality across bulk shipments.</p>
+    <div class="prod-grid">
+      <article class="pcard reveal tilt">
+        <div class="pimg"><span class="ptag">White Onion</span><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=800,fit=crop/2LqxVklZd4iJcDmR/dehydrated-white-onion-flakes-CPkG3d4pGNz0BFRS.png" alt="Dehydrated white onion flakes"></div>
+        <div class="pbody">
+          <h3>Dehydrated White Onion</h3>
+          <p>Natural color, strong aroma and excellent rehydration for soups, sauces and seasonings.</p>
+          <div class="pforms"><i>Flakes</i><i>Powder</i><i>Granules</i></div>
+        </div>
+      </article>
+      <article class="pcard reveal d1 tilt">
+        <div class="pimg"><span class="ptag">Red Onion</span><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=800,fit=crop/2LqxVklZd4iJcDmR/dehydrated-red-onion-powder-jwUOGSEFu8aDUvMe.png" alt="Dehydrated red onion powder"></div>
+        <div class="pbody">
+          <h3>Dehydrated Red Onion</h3>
+          <p>Rich flavor and consistent quality for snacks, spice blends and ready-to-eat foods.</p>
+          <div class="pforms"><i>Powder</i><i>Flakes</i><i>Minced</i></div>
+        </div>
+      </article>
+      <article class="pcard reveal d2 tilt">
+        <div class="pimg"><span class="ptag">Pink Onion</span><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=1024,fit=crop/2LqxVklZd4iJcDmR/whatsapp-image-2025-11-28-at-12.08.53-pm-1-5KMPaalxgizxi5Lb.jpeg" alt="Dehydrated pink onion products"></div>
+        <div class="pbody">
+          <h3>Dehydrated Pink Onion</h3>
+          <p>Distinct color and balanced pungency, processed to buyer specifications.</p>
+          <div class="pforms"><i>Flakes</i><i>Chopped</i><i>Granules</i></div>
+        </div>
+      </article>
+      <article class="pcard reveal d3 tilt">
+        <div class="pimg"><span class="ptag">Garlic</span><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=800,fit=crop/2LqxVklZd4iJcDmR/dehydrated-garlic-flakes-Bvu3WWZJx4mmbBP3.png" alt="Dehydrated garlic flakes"></div>
+        <div class="pbody">
+          <h3>Dehydrated Garlic</h3>
+          <p>Processed from fresh garlic to retain natural taste and aroma for seasoning blends.</p>
+          <div class="pforms"><i>Flakes</i><i>Powder</i><i>Granules</i></div>
+        </div>
+      </article>
+      <article class="pcard reveal d4 tilt">
+        <div class="pimg"><span class="ptag">Custom</span><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=750,fit=crop/2LqxVklZd4iJcDmR/whatsapp-image-2025-11-28-at-12.08.53-pm-1-5KMPaalxgizxi5Lb.jpeg" alt="Custom dehydrated products and spices"></div>
+        <div class="pbody">
+          <h3>Masala, Spices &amp; Custom</h3>
+          <p>Custom cuts, mesh sizes and packaging built around your market's requirements.</p>
+          <div class="pforms"><i>Any Cut</i><i>Any Mesh</i><i>Any Pack</i></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROCESS ================= -->
+<section class="proc" id="process">
+  <div class="wrap proc-head">
+    <div class="eyebrow reveal">The Dehydration Line</div>
+    <h2 class="h2 reveal d1">Seven stages between<br>the field and your formula.</h2>
+    <p class="lead reveal d2">Scroll to walk the line — from raw arrival to final sorting, every stage is controlled for food safety, yield and consistency.</p>
+  </div>
+
+  <!-- desktop scroll-scrub -->
+  <div class="proc-scrub" id="procScrub">
+    <div class="proc-sticky">
+      <div class="proc-bar" id="procBar"></div>
+      <div class="stage">
+        <div class="stage-imgs" id="stageImgs"></div>
+        <div class="stage-num" id="stageNum">01</div>
+      </div>
+      <div class="panel">
+        <div class="eyebrow">Stage <span id="stageCount" style="margin-left:6px">01 / 07</span></div>
+        <h3 class="step-title" id="stepTitle">Raw Onion Arrival</h3>
+        <p class="step-desc" id="stepDesc">Farm-sourced onions arrive from trusted growers and are inspected, graded and staged for processing.</p>
+        <div class="readout">
+          <div><span>AIR TEMP</span><b id="roTemp">AMBIENT</b></div>
+          <div><span>MOISTURE</span><b id="roMoist">~86%</b></div>
+          <div><span>CONTROL</span><b id="roCtl">VISUAL GRADING</b></div>
+        </div>
+        <div class="rail" id="rail"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile timeline -->
+  <div class="wrap proc-mobile" id="procMobile"></div>
+</section>
+<!-- ================= QUALITY ================= -->
+<section class="quality sec" id="quality">
+  <div class="wrap">
+    <div class="eyebrow reveal">Quality · Sustainability · Food Safety</div>
+    <h2 class="h2 reveal d1">Grown with care.<br>Processed with discipline.</h2>
+    <div class="q-grid">
+      <div class="q-img reveal d1"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=900,fit=crop/2LqxVklZd4iJcDmR/farm-sourced-raw-materials-5Xl22jbZJGLPLQ8J.webp" alt="Farm sourced raw onions"></div>
+      <div class="q-list">
+        <div class="q-item reveal d1">
+          <div class="q-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21c4.5-3.5 8-7 8-11a8 8 0 1 0-16 0c0 4 3.5 7.5 8 11z"/><path d="M12 3v18"/></svg></div>
+          <div><h4>Farm-Sourced Raw Materials</h4><p>Fresh onions and garlic sourced directly from trusted farms across Gujarat's growing belt.</p></div>
+        </div>
+        <div class="q-item reveal d2">
+          <div class="q-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3s-6 6.5-6 11a6 6 0 0 0 12 0c0-4.5-6-11-6-11z"/></svg></div>
+          <div><h4>Water &amp; Energy Efficiency</h4><p>Optimized water usage and energy-efficient two-stage dehydration.</p></div>
+        </div>
+        <div class="q-item reveal d3">
+          <div class="q-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 12a8 8 0 0 1 14-5"/><path d="M18 3v4h-4"/><path d="M20 12a8 8 0 0 1-14 5"/><path d="M6 21v-4h4"/></svg></div>
+          <div><h4>Minimal Processing Waste</h4><p>Controlled dehydration designed to reduce waste and improve yield.</p></div>
+        </div>
+        <div class="q-item reveal d4">
+          <div class="q-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div><h4>Export-Grade Processing</h4><p>Hygienic manufacturing aligned with international food safety standards.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INDUSTRIES ================= -->
+<section class="sec" id="industries">
+  <div class="wrap">
+    <div class="eyebrow reveal">Industries We Serve</div>
+    <h2 class="h2 reveal d1">Trusted by the people<br>who feed millions.</h2>
+    <div class="ind-grid">
+      <div class="icard reveal"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,fit=crop/2LqxVklZd4iJcDmR/food-processing.jpg-hTUtSpQEquvaycTw.webp" alt="Food processing"><div class="icard-txt"><h4>Food Processing</h4><p>Bulk ingredients for soups, sauces, snacks and seasonings.</p></div></div>
+      <div class="icard reveal d1"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,fit=crop/2LqxVklZd4iJcDmR/ready-meal-producers-HzrvjYWcdJGvqlXK.jpg" alt="Ready meal producers"><div class="icard-txt"><h4>Ready-Meal Producers</h4><p>Consistent flavor and shelf life for RTE &amp; RTC lines.</p></div></div>
+      <div class="icard reveal d2"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,fit=crop/2LqxVklZd4iJcDmR/seasoning-manufacturers-vty1EN1VlbmEeHLB.jpg" alt="Spice and seasoning manufacturers"><div class="icard-txt"><h4>Spice &amp; Seasoning</h4><p>Strong aroma and uniform granulation for blends.</p></div></div>
+      <div class="icard reveal d3"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,fit=crop/2LqxVklZd4iJcDmR/horeca-and-catering-distributers-OlmieNQj55HRYZR9.jpg" alt="HoReCa and catering"><div class="icard-txt"><h4>HoReCa &amp; Catering</h4><p>Convenience and consistent taste at volume.</p></div></div>
+      <div class="icard reveal d4"><img loading="lazy" src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=600,fit=crop/2LqxVklZd4iJcDmR/bulk-ingredient-importers-kpSgLqgJWCU8nd0U.jpg" alt="Importers and wholesalers"><div class="icard-txt"><h4>Importers &amp; Wholesalers</h4><p>Bulk packaging, export documentation, custom specs.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ROUTES ================= -->
+<section class="routes sec" id="routes">
+  <div class="wrap">
+    <div class="eyebrow reveal">Global Supply Routes</div>
+    <h2 class="h2 reveal d1">From Morangi,<br>to menus everywhere.</h2>
+    <p class="lead reveal d2">Export documentation, bulk sea &amp; air freight coordination, and specifications tailored to each destination market.</p>
+    <div class="routes-board reveal d2">
+      <svg viewBox="0 0 1200 520" aria-hidden="true">
+        <path class="route-path" d="M200 280 Q330 150 460 120"/>
+        <path class="route-path" d="M200 280 Q420 60 640 70"/>
+        <path class="route-path" d="M200 280 Q560 -40 930 110"/>
+        <path class="route-path" d="M200 280 Q380 340 560 330"/>
+        <path class="route-path" d="M200 280 Q450 290 700 240"/>
+        <path class="route-path" d="M200 280 Q560 380 900 300"/>
+        <path class="route-path" d="M200 280 Q640 520 1010 420"/>
+        <circle class="hub-ring" cx="200" cy="280" r="10"/>
+        <circle class="hub" cx="200" cy="280" r="8"/>
+        <text class="map-label big" x="80" y="322">Gujarat · India</text>
+        <circle class="dest" cx="460" cy="120" r="5"/><text class="map-label" x="478" y="124">Middle East</text>
+        <circle class="dest" cx="640" cy="70" r="5"/><text class="map-label" x="658" y="74">Europe</text>
+        <circle class="dest" cx="930" cy="110" r="5"/><text class="map-label" x="948" y="114">North America</text>
+        <circle class="dest" cx="560" cy="330" r="5"/><text class="map-label" x="578" y="334">Africa</text>
+        <circle class="dest" cx="700" cy="240" r="5"/><text class="map-label" x="718" y="244">Southeast Asia</text>
+        <circle class="dest" cx="900" cy="300" r="5"/><text class="map-label" x="918" y="304">East Asia</text>
+        <circle class="dest" cx="1010" cy="420" r="5"/><text class="map-label" x="1028" y="424">Latin America</text>
+      </svg>
+    </div>
+    <div class="counters">
+      <div class="counter reveal"><b data-count="7">0</b><span>Export Regions</span></div>
+      <div class="counter reveal d1"><b data-count="5">0</b><span>Product Lines</span></div>
+      <div class="counter reveal d2"><b data-count="100" data-suffix="%">0</b><span>Farm Sourced</span></div>
+      <div class="counter reveal d3"><b data-count="24" data-suffix="h">0</b><span>Quote Response</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact sec" id="contact">
+  <div class="wrap c-grid">
+    <div>
+      <div class="eyebrow reveal">Start an Inquiry</div>
+      <h2 class="reveal d1">Let's talk <em>bulk.</em></h2>
+      <p class="lead reveal d2" style="margin-top:18px">Send your product, cut, mesh size and destination — receive a specification and quote within 24 hours.</p>
+      <div class="c-actions reveal d3">
+        <a class="btn btn-solid" href="https://wa.me/919106208260?text=Hello%20Five%20Star%20Food%2C%20I%27d%20like%20a%20quote%20for%20dehydrated%20products." target="_blank" rel="noopener">WhatsApp Us</a>
+        <a class="btn btn-ghost" href="mailto:info@fivestarfoodexport.com">Email Specification</a>
+      </div>
+    </div>
+    <div class="c-card reveal d2">
+      <span class="k">Factory &amp; Office</span>
+      <b>Morangi, Rajula, Amreli,<br>Gujarat – 365565, India</b>
+      <span class="k">Phone</span>
+      <b><a href="tel:+919106208260">+91 91062 08260</a></b>
+      <span class="k">Email</span>
+      <b><a href="mailto:info@fivestarfoodexport.com">info@fivestarfoodexport.com</a></b>
+      <span class="k">Social</span>
+      <b><a href="https://www.instagram.com/fivestarfoodexportindustries/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/people/Five-Star-Food-Export/61571367809793/" target="_blank" rel="noopener">Facebook</a></b>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="f-grid">
+      <div class="f-brand">
+        <a class="logo" href="#top"><span class="star">✶</span><b>FIVE STAR</b><span>FOOD EXPORT IND.</span></a>
+        <p>Leading manufacturer and exporter of dehydrated onion, garlic and spice products from India, supplying global food industries.</p>
+      </div>
+      <div class="f-col">
+        <h5>Site</h5>
+        <a href="https://www.fivestarfoodexportindustries.com/">Home</a>
+        <a href="https://www.fivestarfoodexportindustries.com/company">Company</a>
+        <a href="https://www.fivestarfoodexportindustries.com/dehydrated-onion-manufacturing-process">Manufacturing</a>
+        <a href="https://www.fivestarfoodexportindustries.com/blog">Blog</a>
+        <a href="https://www.fivestarfoodexportindustries.com/contact">Contact</a>
+      </div>
+      <div class="f-col">
+        <h5>Products</h5>
+        <a href="https://www.fivestarfoodexportindustries.com/dehydrated-white-onion">White Onion</a>
+        <a href="https://www.fivestarfoodexportindustries.com/dehydrated-red-onion">Red Onion</a>
+        <a href="https://www.fivestarfoodexportindustries.com/dehydrated-pink-onion">Pink Onion</a>
+        <a href="https://www.fivestarfoodexportindustries.com/dehydrated-garlic">Garlic</a>
+        <a href="https://www.fivestarfoodexportindustries.com/masala-spices-and-custom-products">Custom &amp; Spices</a>
+      </div>
+      <div class="f-col">
+        <h5>Bulk Export</h5>
+        <a href="#contact">White &amp; red onion flakes, powder, granules, chopped and minced — available for bulk export.</a>
+      </div>
+    </div>
+    <div class="f-bottom">
+      <span>© <span id="year">2026</span> Five Star Food Export Industries. All rights reserved.</span>
+      <span>Design concept preview — prepared for review. Not the live website.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ---------- data: the dehydration line ---------- */
+const CDN = "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1100,fit=crop/2LqxVklZd4iJcDmR/";
+const STEPS = [
+ {img:"raw-onion-arrival-U48V3vjijMHhKAK3.png", t:"Raw Onion Arrival", d:"Farm-sourced onions arrive from trusted growers and are inspected, graded and staged for processing.", temp:"AMBIENT", moist:"~86%", ctl:"VISUAL GRADING"},
+ {img:"root-removal-cyfslHjsjLsG4KCt.png", t:"Root & Top Removal", d:"Roots and tops are removed and bulbs are peeled and washed before entering the cutting line.", temp:"AMBIENT", moist:"~86%", ctl:"TRIM & WASH"},
+ {img:"dryer-racks-LzFk9b6QcViu57sc.png", t:"Slicing & Belt Feeding", d:"Uniform slicing and controlled belt feeding prepare the material for even, repeatable drying.", temp:"AMBIENT", moist:"~86%", ctl:"UNIFORM CUT SIZE"},
+ {img:"2-stage-hot-dryer-udHsAU6QTFotJ99y.png", t:"Two-Stage Hot Air Drying", d:"A two-stage hot air system removes moisture gradually — protecting color, aroma and flavor.", temp:"55–75°C", moist:"86% → 6%", ctl:"TEMP + AIRFLOW"},
+ {img:"kibbler-machine-jX2AVsKeYGDqvP6M.png", t:"Kibbling & Sizing", d:"Dried material is kibbled and calibrated into flakes, granules or powder to the buyer's mesh size.", temp:"COOLING", moist:"≤ 6%", ctl:"MESH CALIBRATION"},
+ {img:"cooling-conveyor-yJXVhE3HA15vxk6S.png", t:"Cooling Conveyor", d:"Product is stabilized on cooling conveyors to lock in shelf life before final inspection.", temp:"25–30°C", moist:"≤ 6%", ctl:"STABILIZATION"},
+ {img:"final-sorting-exDn5sj7F9fGXfmw.png", t:"Final Sorting & Packing", d:"Final sorting, inspection and export-grade packing — ready for documentation and dispatch.", temp:"AMBIENT", moist:"≤ 6%", ctl:"SORT + PACK"}
+];
+const pad = n => String(n+1).padStart(2,"0");
+
+/* build desktop stage images + rail */
+const stageImgs = document.getElementById("stageImgs");
+const rail = document.getElementById("rail");
+if(stageImgs){
+  STEPS.forEach((s,i)=>{
+    const im = new Image();
+    im.src = CDN + s.img; im.alt = s.t;
+    if(i===0) im.classList.add("on");
+    stageImgs.appendChild(im);
+    const dot = document.createElement("i");
+    if(i===0) dot.classList.add("on");
+    rail.appendChild(dot);
+  });
+}
+
+/* build mobile timeline */
+const pm = document.getElementById("procMobile");
+if(pm){
+  const tl = document.createElement("div"); tl.className = "tl";
+  STEPS.forEach((s,i)=>{
+    const el = document.createElement("div");
+    el.className = "tl-step reveal";
+    el.innerHTML = `<img loading="lazy" src="${CDN + s.img}" alt="${s.t}"><h4><b>0${i+1}</b>${s.t}</h4><p>${s.d}</p>`;
+    tl.appendChild(el);
+  });
+  pm.appendChild(tl);
+}
+
+/* ---------- scroll scrub ---------- */
+const scrub = document.getElementById("procScrub");
+let cur = 0, ticking = false;
+function setStep(i){
+  if(i===cur) return;
+  const title = document.getElementById("stepTitle");
+  const desc  = document.getElementById("stepDesc");
+  title.classList.add("fadeout"); desc.classList.add("fadeout");
+  setTimeout(()=>{
+    title.textContent = STEPS[i].t;
+    desc.textContent  = STEPS[i].d;
+    document.getElementById("roTemp").textContent  = STEPS[i].temp;
+    document.getElementById("roMoist").textContent = STEPS[i].moist;
+    document.getElementById("roCtl").textContent   = STEPS[i].ctl;
+    title.classList.remove("fadeout"); desc.classList.remove("fadeout");
+  },180);
+  document.getElementById("stageNum").textContent = pad(i);
+  document.getElementById("stageCount").textContent = pad(i) + " / 07";
+  stageImgs.querySelectorAll("img").forEach((im,k)=>im.classList.toggle("on",k===i));
+  rail.querySelectorAll("i").forEach((d,k)=>d.classList.toggle("on",k===i));
+  cur = i;
+}
+function onScroll(){
+  if(!scrub || getComputedStyle(scrub).display==="none") return;
+  const r = scrub.getBoundingClientRect();
+  const total = r.height - window.innerHeight;
+  const p = Math.min(1, Math.max(0, -r.top / total));
+  document.getElementById("procBar").style.width = (p*100).toFixed(2) + "%";
+  setStep(Math.min(STEPS.length-1, Math.floor(p * STEPS.length)));
+}
+window.addEventListener("scroll", ()=>{
+  if(!ticking){ requestAnimationFrame(()=>{ onScroll(); ticking=false; }); ticking = true; }
+}, {passive:true});
+
+/* ---------- reveal ---------- */
+const io = new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+}),{threshold:.14});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+
+/* ---------- counters ---------- */
+const cio = new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  const el = e.target, end = +el.dataset.count, suf = el.dataset.suffix||"";
+  const t0 = performance.now(), dur = 1400;
+  (function tick(t){
+    const p = Math.min(1,(t-t0)/dur), ease = 1-Math.pow(1-p,3);
+    el.textContent = Math.round(end*ease) + suf;
+    if(p<1) requestAnimationFrame(tick);
+  })(t0);
+  cio.unobserve(el);
+}),{threshold:.6});
+document.querySelectorAll("[data-count]").forEach(el=>cio.observe(el));
+
+/* ---------- tilt ---------- */
+if(matchMedia("(pointer:fine)").matches){
+  document.querySelectorAll(".tilt").forEach(card=>{
+    card.addEventListener("mousemove",ev=>{
+      const b = card.getBoundingClientRect();
+      const x = (ev.clientX-b.left)/b.width - .5, y = (ev.clientY-b.top)/b.height - .5;
+      card.style.transform = `perspective(900px) rotateX(${(-y*7).toFixed(2)}deg) rotateY(${(x*9).toFixed(2)}deg) translateY(-4px)`;
+    });
+    card.addEventListener("mouseleave",()=>card.style.transform="");
+  });
+}
+
+/* ---------- hero flakes ---------- */
+const cv = document.getElementById("flakes");
+if(cv && !matchMedia("(prefers-reduced-motion:reduce)").matches){
+  const cx = cv.getContext("2d");
+  let W,H,flks=[];
+  function size(){
+    W = cv.width = cv.offsetWidth * devicePixelRatio;
+    H = cv.height = cv.offsetHeight * devicePixelRatio;
+    const n = Math.min(70, Math.floor(cv.offsetWidth/16));
+    flks = Array.from({length:n},()=>({
+      x:Math.random()*W, y:Math.random()*H,
+      s:(Math.random()*3.2+1.6)*devicePixelRatio,
+      vy:(Math.random()*.35+.18)*devicePixelRatio,
+      sway:Math.random()*1.6+.4, ph:Math.random()*6.28,
+      rot:Math.random()*6.28, vr:(Math.random()-.5)*.02,
+      a:Math.random()*.5+.25
+    }));
+  }
+  size(); addEventListener("resize",size);
+  (function draw(t){
+    cx.clearRect(0,0,W,H);
+    flks.forEach(f=>{
+      f.y += f.vy; f.rot += f.vr;
+      const x = f.x + Math.sin(t/1600 + f.ph)*f.sway*devicePixelRatio*8;
+      if(f.y > H + 20){ f.y = -20; f.x = Math.random()*W; }
+      cx.save(); cx.translate(x,f.y); cx.rotate(f.rot);
+      cx.globalAlpha = f.a;
+      cx.fillStyle = "#E8A63B";
+      cx.beginPath(); cx.ellipse(0,0,f.s,f.s*.62,0,0,6.29); cx.fill();
+      cx.restore();
+    });
+    requestAnimationFrame(draw);
+  })(0);
+}
+
+/* ---------- nav ---------- */
+const nav = document.getElementById("nav");
+addEventListener("scroll",()=>nav.classList.toggle("scrolled", scrollY>40),{passive:true});
+const burger = document.getElementById("burger"), mmenu = document.getElementById("mmenu");
+burger.addEventListener("click",()=>mmenu.classList.toggle("open"));
+mmenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mmenu.classList.remove("open")));
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
